@@ -32,4 +32,5 @@ x = list(map(str,x)) >> ['1','2','3','4','5']
 text  = "abcdefg"
 text = text[::-1] >> "gfedcba" 반환 
 ```
-`min(iterable,디폴트,혹은 KEY=FUNCTION)`: 들어오는 ITERABLE 값중 가장 작은 값을 반환 
+`min(iterable,디폴트,혹은 KEY=FUNCTION)`: 들어오는 ITERABLE 값중 가장 작은 값을 반환    
+`변수[::-1]` : 쓸데없이 리스트에 넣고 ''JOIN을 하지 않아도 됨 
